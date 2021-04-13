@@ -13,6 +13,7 @@ Each language has a README file with more specific details for the language.
 The client programs are provided the IP Address and the Port number of the server that they will try to connect to.
 When they have connected to a server, the program will take a user input and will send that to the server.
 The response from the server will be displayed before the program will take any input again.
+To end the program, enter the end message, this is "END" in these examples. The end message will be sent to the server and then the client will end.
 
 ## Server program
 The server programs start a server, with a given port number, that looks for a client making a connection.
